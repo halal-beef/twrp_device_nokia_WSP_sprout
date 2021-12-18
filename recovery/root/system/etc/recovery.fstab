@@ -1,0 +1,5 @@
+/dev/block/platform/bootdevice/by-name/system /system ext4 ro wait,slotselect,avb=vbmeta,first_stage_mount
+
+/dev/block/platform/bootdevice/by-name/vendor /vendor ext4 ro wait,slotselect,avb,first_stage_mount
+
+/dev/block/platform/bootdevice/by-name/vbmeta /vbmeta emmc defaults defaults
