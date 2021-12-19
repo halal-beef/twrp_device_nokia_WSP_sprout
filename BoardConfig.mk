@@ -89,6 +89,8 @@ TARGET_COPY_OUT_VENDOR := vendor
 
 # System props
 
+BOARD_USES_RECOVERY_AS_BOOT := true
+
 # Metadata
 BOARD_USES_METADATA_PARTITION := true
 
