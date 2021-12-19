@@ -134,12 +134,14 @@ TARGET_RECOVERY_PIXEL_FORMAT := "RGBA_8888"
 TW_SECONDARY_BRIGHTNESS_PATH := /sys/devices/platform/leds-mt65xx/leds/lcd-backlight/brightness
 TW_DEFAULT_BRIGHTNESS := 80
 
+
+TW_Y_OFFSET := 60
+TW_H_OFFSET := -60
+
 # Encryption
 PLATFORM_SECURITY_PATCH := 2099-12-31
 PLATFORM_VERSION := 16.1.0
 VENDOR_SECURITY_PATCH := 2099-12-31
-
-TW_DEVICE_VERSION :=  Test Build By areallydumbperson
 #
 #
 #The End!
