@@ -1,8 +1,1 @@
-[
-  {
-    "remote": "TeamWin",
-    "repository": "android_device_xiaomi_sm8350-common",
-    "target_path": "device/xiaomi/sm8350-common",
-    "branch": "android-11"
-  }
-]
+[]
