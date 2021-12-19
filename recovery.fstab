@@ -1,0 +1,5 @@
+#<src>                                                 <mnt_point>            <type>  <mnt_flags and options>                            <fs_mgr_flags>
+system                                                  /system                ext4    ro,barrier=1,discard                                 wait,slotselect
+vendor                                                  /vendor                ext4    ro,barrier=1,discard                                 wait,slotselect,avb,logical,first_stage_mount
+/dev/block/bootdevice/by-name/userdata                  /data                  f2fs
+/dev/block/bootdevice/by-name/para                      /misc                  emmc    defaults                                             defaults

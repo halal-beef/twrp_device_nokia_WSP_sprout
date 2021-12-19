@@ -1,0 +1,6 @@
+ro.product.brand=Nokia
+ro.product.name=omni_WSP_sprout
+ro.product.device=WSP_sprout
+ro.build.product=Nokia 2.2
+ro.debuggable=1
+ro.treble.enabled=true

@@ -1,0 +1,27 @@
+/system_root      ext4     /dev/block/platform/bootdevice/by-name/system       flags=backup=1;wipeingui;slotselect
+/system_image     emmc     /dev/block/platform/bootdevice/by-name/system       flags=backup=1;flashimg=1;slotselect
+/data		  ext4     /dev/block/platform/bootdevice/by-name/userdata       flags=encryptable=/dev/block/platform/bootdevice/by-name/metadata
+/boot             emmc     /dev/block/platform/bootdevice/by-name/boot         flags=backup=1;flashimg=1;slotselect
+/bootloader       emmc     /dev/block/platform/bootdevice/by-name/lk           flags=display="bootloader";backup=1;flashimg=1;slotselect
+/vendor           ext4     /dev/block/platform/bootdevice/by-name/vendor       flags=display="Vendor";backup=1;wipeingui;slotselect
+/vendor_image     emmc     /dev/block/platform/bootdevice/by-name/vendor       flags=display="vendor_image";flashimg=1;backup=1;slotselect
+/nvram            emmc     /dev/block/platform/bootdevice/by-name/nvram        flags=display="nvram";backup=1;flashimg=1
+/proinfo          emmc     /dev/block/platform/bootdevice/by-name/proinfo      flags=display="proinfo";backup=1;flashimg=1
+/preloader        emmc     /dev/block/platform/bootdevice/by-name/preloader  flags=display="preloader";backup=1;flashimg=1;slotselect
+/logo             emmc     /dev/block/platform/bootdevice/by-name/logo         flags=display="logo";backup=1;flashimg=1
+/tee1             emmc     /dev/block/platform/bootdevice/by-name/tee         flags=display="trustzone1";backup=1;flashimg=1;slotselect
+/misc             emmc     /dev/block/platform/bootdevice/by-name/para
+/metadata         emmc     /dev/block/platform/bootdevice/by-name/metadata
+/persistent       emmc     /dev/block/platform/bootdevice/by-name/frp
+/protect_f        ext4     /dev/block/platform/bootdevice/by-name/protect1     flags=display="protect_f";backup=1
+/protect_s        ext4     /dev/block/platform/bootdevice/by-name/protect2     flags=display="protect_s";backup=1
+/nvdata           ext4     /dev/block/platform/bootdevice/by-name/nvdata       flags=display="nvdata";backup=1
+/nvcfg            ext4     /dev/block/platform/bootdevice/by-name/nvcfg        flags=display="nvcfg";backup=1
+/external_sd      vfat     /dev/block/mmcblk1p1  /dev/block/mmcblk1            flags=display="MicroSD";storage;wipeingui;removable;fsflags="utf8"
+/usb-otg          vfat     /dev/block/sda1  /dev/block/sda                     flags=display="USB-OTG";storage;wipeingui;removable;fsflags="utf8"
+/private          emmc     /dev/block/platform/bootdevice/by-name/private
+/scp              emmc     /dev/block/platform/bootdevice/by-name/scp          flags=slotselect
+/sec1             emmc     /dev/block/platform/bootdevice/by-name/sec1
+/seccfg           emmc     /dev/block/platform/bootdevice/by-name/seccfg
+/sspm             emmc     /dev/block/platform/bootdevice/by-name/sspm         flags=slotselect
+/spmfw            emmc     /dev/block/platform/bootdevice/by-name/spmfw        flags=slotselect
