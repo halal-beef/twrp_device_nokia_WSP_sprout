@@ -1,4 +1,4 @@
-LOCAL_PATH := device/hmd/WSP_sprout
+LOCAL_PATH := device/nokia/WSP_sprout
 
 # Architecture
 TARGET_ARCH := arm64
