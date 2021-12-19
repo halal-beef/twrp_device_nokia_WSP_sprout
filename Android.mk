@@ -1,5 +1,5 @@
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),Note_11P)
+ifeq ($(TARGET_DEVICE),WSP_sprout)
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 endif
