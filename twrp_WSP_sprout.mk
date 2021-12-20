@@ -19,6 +19,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 
+$(call inherit-product, device/nokia/WSP_sprout/device.mk)
+
 # Inherit from TWRP common configurations
 $(call inherit-product, vendor/twrp/config/common.mk)
 
