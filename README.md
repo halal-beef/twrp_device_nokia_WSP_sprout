@@ -1,36 +1,36 @@
 Blocking checks
-- [ ✓ ] Correct screen/recovery size
-- [ ✓ ] Working Touch, screen
-- [ ✓ ] Backup to internal/microSD
-- [ ✓ ] Restore from internal/microSD
-- [ ✓ ] reboot to system
-- [ ✓ ] ADB
+- [X] Correct screen/recovery size
+- [X] Working Touch, screen
+- [X] Backup to internal/microSD
+- [X] Restore from internal/microSD
+- [X] reboot to system
+- [X] ADB
 
 
 Medium checks
-- [ ✓ ] update.zip sideload
-- [ ✓ ] UI colors (red/blue inversions)
-- [ ✓ ] Screen goes off and on
-- [ ✓ ] F2FS/EXT4 Support, exFAT/NTFS where supported
-- [ ✓ ] all important partitions listed in mount/backup lists
+- [X] update.zip sideload
+- [X] UI colors (red/blue inversions)
+- [X] Screen goes off and on
+- [X] F2FS/EXT4 Support, exFAT/NTFS where supported
+- [X] all important partitions listed in mount/backup lists
 - [ ] backup/restore to/from external (USB-OTG) storage (not supported by the device) (unable to test right now)
-- [ ✓ ] backup/restore to/from adb (https://gerrit.omnirom.org/#/c/15943/)
+- [X] backup/restore to/from adb (https://gerrit.omnirom.org/#/c/15943/)
 - [ ] decrypt /data
-- [ ✓ ] Correct date
+- [X] Correct date
 
 
 
 Minor checks
-- [ ✓ ] MTP export
-- [ ✓ ] reboot to bootloader
-- [ ✓ ] reboot to recovery
-- [ ✓ ] poweroff
-- [ ✓ ] battery level
-- [ ✓ ] temperature
+- [X] MTP export
+- [X] reboot to bootloader
+- [X] reboot to recovery
+- [X] poweroff
+- [X] battery level
+- [X] temperature
 - [ ] encrypted backups (no option)
 - [ ] input devices via USB (USB-OTG) - keyboard, mouse and disks (not supported by the device) (unable to test)
 - [ ] USB mass storage export (unable to test)
-- [ ✓ ] set brightness
-- [ ✓ ] vibrate
-- [ ✓ ] screenshot
-- [ ✓ ] partition SD card
+- [X] set brightness
+- [X] vibrate
+- [X] screenshot
+- [X] partition SD card
