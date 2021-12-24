@@ -1,4 +1,4 @@
-# For building for the Nokia 2.2 ONLY
+# For building TWRP for the Nokia 2.2 ONLY
 
 ## Blocking checks
 
